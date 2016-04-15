@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:id="@+id/relative"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" />
+
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\t\t\t\tOUR TEAM"
+        android:id="@+id/textView"
+        android:background="#fafffe"
+        android:layout_below="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <ExpandableListView android:id="@+id/list"
+        android:layout_height="459dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/scrollView"
+        android:layout_toEndOf="@+id/scrollView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note : Contact The Below Persons For any Query"
+        android:id="@+id/textView2"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="#00e4fffb" />
+
+</RelativeLayout>
+
+
